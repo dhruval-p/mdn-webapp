@@ -28,7 +28,7 @@ SECRET_KEY=os.environ.get('DJANGO_SECRET_KEY', 'reacv&i99irb9tuzcy7+#l+&l&5bngl(
 #DEBUG = False
 DEBUG = os.environ.get('DJANGO_DEBUG', '')!='False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['enigmatic-shelf-59313.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -146,3 +146,5 @@ STATIC_URL = '/static/'
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+r
